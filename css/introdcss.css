@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+.centrado{
+    margin-top: 2%;
+    text-align: center;
+}
+img{
+    text-align: center;
+}
+h2{
+    text-decoration-line:underline;
+}
+body{
+    background-color: floralwhite;
+}
+p{
+    font-style: oblique;
+}
+li{
+    font-style: oblique;
+}
+a:hover{
+    color: blue;
+    text-decoration:double;
+}
