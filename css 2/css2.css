@@ -1,0 +1,35 @@
+.contenedor{
+    background-color:#26BFAA;
+    text-align: center;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: -5px 5px 15px #000;
+    border-radius: 20px 20px 20px 20px;
+ 
+}
+.contenedor:hover{
+    box-shadow: -10px 10px 15px #000;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: #1CCAB2;
+}
+.contiene{
+    width: 800px;
+    background-color:#000;
+    margin-top: 10px;
+    display: flex; /*Flexible (Flex) o Inflexible (inline-flex)*/
+    flex-direction:row; /*Si en horizontal o vertical*/
+    flex-wrap: wrap; /*Wrap que se desborde el contenedor o nowrap que se ajuste a los elementos*/
+    justify-content: space-between; /*movimiento en el eje indicado (row horizontal column vertical)*/
+    align-content: center; /*movimiento en el eje contrario al indicado*/
+}
+.cajas{
+    width: 200px;
+    height: 100px; 
+}
+
